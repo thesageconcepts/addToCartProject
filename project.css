@@ -1,0 +1,249 @@
+body{
+    color: #40514E;
+    background-color: #eaf6f6;
+    margin: 0;
+    font-family: 'Merriweather', serif; 
+}
+
+header{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    position: relative;
+}
+
+/* .overlay{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: rgb(10, 10, 10, 0.3);
+
+
+} */
+
+nav{
+
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 60px 0 60px;
+    margin-left: 70%;
+      size: 70%;
+
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+nav li span{
+    padding-left: 5px;
+}
+
+li a{
+    padding: 5px;
+    background-color:#66BFBF;
+    text-decoration: none;
+}
+.cart ion-icon{
+    vertical-align: bottom;
+    font-size: 20px;
+    padding-right: 5px;
+}
+.cart a{
+    background-color: darkseagreen;
+    color: dimgray;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+h1{
+    text-align: center;
+    color: #66BFBF;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 2.625rem;
+    line-height: 2;
+    font-family: 'Merriweather', serif;
+}
+
+
+hr {
+
+    margin-top: 3%;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 4px;
+    width: 3%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+img {
+    width: 100%;
+    
+}
+
+.myImage1{
+    width: 25%;
+    float: right;
+    margin-right: 75px;
+    height: 25%;
+    font-size: 1.2rem;
+}
+.myImage2{
+    width: 25%;
+    float: left;
+    margin-left: 75px;
+    height: 25%;
+    font-size: 1.2rem;
+    
+}
+.myImage3{
+    width: 25%;
+    float: left;
+    margin-left: 125px;
+    height: 25%;
+    font-size: 1.2rem;
+   
+}
+
+.add-cart{
+    position: absolute;
+    width: 5%;
+    background-color: darkgrey;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.myImage1:hover .cart1,
+.myImage2:hover .cart2,
+.myImage3:hover .cart3{
+    bottom: 160px;
+    opacity: 1;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+.myForm{
+    font-size: 2.0rem;;
+    margin: 1px 0 0 40%;
+    /* width: 210px; */
+    /* display: inline-block; */
+    text-align: right;
+    float: left;
+}
+
+/* --------------------CART PAGE------------------------- */
+.products-container{
+    max-width: 650px;
+    justify-content: space-around;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px; 
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100%;
+}
+.products-container ion-icon{
+    font-size: 50px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.products-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgrey;
+    margin: 0 auto;
+}
+.product-title{
+    width: 47%;
+ 
+    
+}
+.price{
+    width: 15%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+.total{
+    width: 10%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+.quantity{
+    width: 30%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+.product{
+    width: 45%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+.product ion-icon{
+    cursor: pointer;
+}
+
+.products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products img{
+    width: 90px;
+}
+
+.basketTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 385px;
+    padding: 10px 0;
+   
+}
+
+.basketTotalTitle{
+    width: 30%;
+}
+.basketTotal{
+    width: 10%;
+}

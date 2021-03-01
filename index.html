@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="https://unpkg.com/ionicons@5.4.0/dist/css/ionicons.min.css" href="style.css">
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <header>
+        <div class="overlay"></div>
+        <nav>
+           
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#Shop">Shop</a></li>
+                <li class="cart">
+                    <a href="#Cart">
+                    <ion-icon name="basket-outline"></ion-icon>Cart<span>0</span>
+                </a>
+                </li>                
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <h1>Welcome To TheSage eCommerce Store</h1>
+    <form action="Shop.html" method="POST" class="myForm" id="f">
+        <h3>Login Credentials</h3>
+        Username:
+        <input type="text" id="tUsername">
+        <br>
+        Age:
+        <input type="number" placeholder="Enter your age" id="tAge">
+        <br>
+        <button class="btn">Submit</button>
+
+
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        <script src="project.js"></script>
+    </body>
+
+</html>
